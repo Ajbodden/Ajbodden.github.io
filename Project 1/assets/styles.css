@@ -1,0 +1,119 @@
+/* this is the main stylesheet for my exercise-2.HTML */
+/* cmd+/ = CSS note or commenting out */
+body {
+  font-family: joschmi, sans-serif;
+  background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    /* this is defining the base size for all the type on the page. What ever value is included here it will change all the following font-sizes proportionally. */
+}
+
+#container {
+  margin: 0 auto;
+  padding: 0;
+  width: 1024px;
+  height: 768px;
+}
+
+/*TYPOGRAPHY */
+P {
+  /* an em is defined by the parent element that has defined the main value. In this case all elements are inheriting the 18px value from the body tag */
+font-size: 1em;
+/* 1em = 18px */
+}
+
+h1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 33.333em;
+  /* 600px / 18px = 33.333333em */
+  padding: 0;
+  margin-top: -100px;
+  margin-bottom: -50px;
+  margin-left:380px
+}
+
+button {
+  padding: 0;
+  margin-top: -100px;
+  margin-bottom: -50px;
+  margin-left:485px
+}
+
+h2,
+h3 {
+  color: #f30606;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2em;
+  /* 36px / 18px = 2em */
+  font-weight: 400;
+}
+
+h3 {
+  /* 24/18 = 1.3333em */
+  font-size: 1.3333em;
+    font-weight: 400;
+}
+
+h4 {
+  font-size: 1.3333em;
+  /* 24/18 = 1.3333em */
+  font-weight: 400;
+}
+
+.character-highlights {
+  text-transform: uppercase;
+  font-size: 3.3333em;
+  /* 60/18 = 3.3333em */
+}
+
+a {
+  color: #f30606;
+  text-decoration: underline;
+}
+
+.letter-container {
+  display: flex;
+  justify-content: space-evenly;
+  /*horizontal alignments*/
+  align-items: center;
+  /*verticl alignments*/
+}
+
+.flexybox {
+  display: flex;
+}
+
+
+.history-writeup {
+  margin-top: 50px;
+}
+
+.history-writeup p {
+  font-size:20px;
+}
+
+footer {
+  margin-top: 150px;
+}
+
+#my-photo {
+  width: 200px;
+  height: 200px;
+  margin-right:60px;
+}
+
+.personal-title {
+  /* 29% x 1024px = 300px */
+  width: 300px;
+  margin-right:60px;
+}
+
+.sources {
+  /* 35% of #container width = 358.2px */
+  width: 358px;
+}
